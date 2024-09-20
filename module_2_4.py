@@ -11,5 +11,4 @@ for i in numbers :
             break
    if is_prime == True:
        primes.append(i)
-print('Primes: ', (primes))
-print('Not Primes: ', (not_primes))
+print(f'Primes:  {primes} , Not Primes:  {not_primes}')
